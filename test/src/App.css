@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.topbar {
+  background-color: #116FBF;
+  padding: 30px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  font-family: sans-serif;
+  font-weight: 400;
+}
+
+/*Sidebar css start*/
+.my-side-bar {
+  width: 100% !important;
+  background-color: #f2f2f2;
+  min-height: 120vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+/*Sidebar css end*/
+
+
+/*Dashboard css start*/
+.dashboard-card {
+  width: 350px;
+}
+
+.dashboard-card:hover {
+  box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.353);
+}
+
+/*Dashboard css end*/
+
+
+/*Tool Css start*/
+.my-btn {
+  background: #E9ECEF !important;
+  color: #333 !important;
+  border: none !important;
+  width: 100%;
+  padding: 15px !important;
+  margin: 20px 0 -6px 0 !important;
+  transition: 0.2s ease;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+.my-btn:focus {
+  box-shadow: none !important;
+}
+
+.my-btn:hover {
+  background-color: #e1e1e1 !important;
+}
+
+/*Tool Css end*/
+
+
+.myFlex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.myCard {
+  width: 50%;
+  margin: 5px 10px 5px 10px;
+}
+
+@media (max-width:768px) {
+  .myFlex {
+    flex-direction: column;
+  }
+
+  .myCard {
+    width: 100%;
+  }
+}
